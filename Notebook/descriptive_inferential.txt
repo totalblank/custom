@@ -1,0 +1,3 @@
+* Descriptive statistics describes sets of actual obersvations.
+
+* Inferential statistics generalizes beyond sets of actual observations.

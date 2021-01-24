@@ -1,0 +1,8 @@
+1. Sentential/Propositional logic
+2. Predicate logic
+3. Modal logic
+
+Formal logical systems are important in 
+Artificial Intelligence, where computers
+are programmed in the language of formal
+logic to carry out logical reasoning.

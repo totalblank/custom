@@ -1,0 +1,5 @@
+An uncontrolled variable that compromises the interpretation
+of a study is known as a confounding variable.
+
+Avoid confounding variable by standardizing all experimental
+conditions, other than the independent variable

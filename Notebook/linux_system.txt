@@ -1,0 +1,28 @@
+A linux system has THREE main levels.
+
+1. The hardware is at the base.
+   Hardware includes memory as well as
+   one or more Central Processing Units
+   (GPUs) to perform computation and 
+   to read from and write to memory.
+   Devices such as disks and Network
+   Interfaces are also part of the 
+   hardware.
+
+2. The next level up is the kernel,
+   which is the core of the OS. The
+   kernel is software residing in
+   memory that tells the CPU what to
+   do. The kernel manages the hardware
+   and acts primarily as an interface
+   between the hardware and any running
+   running program.
+
+3. Processes - the running programs
+   that the kernel manages - collectively
+   make up the system's upper level,
+   called user space.
+
+N.B. -> The kernel runs in kernel mode,
+	and the user processes run in
+	user mode.

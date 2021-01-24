@@ -1,0 +1,7 @@
+Info -> All input and output from perpheral
+	devices flow through main memory,
+	also as a bunch of bits. A CPU is
+	just an operator on memory; it reads
+	it's instructions and data from the 
+	memory and writes data back into the
+	memory.

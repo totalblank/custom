@@ -1,0 +1,4 @@
+Definition: A sentence (or proposition) is a statement
+which is either true or false. If the sentence is true,
+we denote its value by the letter T and by F if it is
+false

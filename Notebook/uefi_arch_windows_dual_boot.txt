@@ -1,0 +1,60 @@
+Section 1: Enable UEFI in windows 10
+
+i) Download (or get) gdisk (GPT fdisk).
+ii) Copy gdisk64.exe to system drive (i.e. C drive location C:\).
+iii) Make a uefi bootable windows installation usb.
+iv) Boot into the installation usb drive.
+v) Click on "Repair your computer".
+vi) Click on "Troubleshoot".
+vii) Click on "Command Prompt".
+N.B. -> Follow these instructions exactly.
+viii) "diskpart" + Enter
+ix) "list disk" + Enter
+x) "sel disk 0" + Enter (Select PCs internal hard drive where windows is installed)
+xi) "list par" + Enter
+xii) "exit" + Enter
+xiii) Now you have to find system drive where gdisk64.exe was pasted.
+xiv) "cd /d c:" + Enter
+xv) "dir" + Enter
+xvi) If you can't find gdisk64.exe try one of these below (along with "dir")
+	"cd /d d:" + Enter
+	"cd /d e:" + Enter
+	"cd /d f:" + Enter
+xvii) When you find gdisk64.exe then run the following
+	"gdisk64.exe -l 0:" + Enter
+xviii) "gdisk64.exe 0:" + Enter
+N.B. -> Current partition style should show MBR.
+	To boot our pc in UEFI mode we should convert
+	our partition style to GPT as MBR does not 
+	support UEFI boot.
+xix) "y" + Enter
+xx) "w" + Enter
+xxi) "y" + Enter
+xxii) "diskpart" + Enter
+xxiii) "sel disk 0" + Enter
+xxiv) "list par" + Enter
+N.B. -> Now we have to create UEFI partition in system partition to boot
+	our pc in UEFI mode.
+xxv) "sel par 2" + Enter (Select PCs internal hard drive where windows is installed)
+xxvi) "shrink desired = 300 minimum = 300" + Enter
+xxvii) "creat par efi" + Enter
+N.B. ->You should see "DiskPart succeeded in creating the specified partition.".
+xxviii) "format fs = fat32 quick" + Enter
+N.B. -> It is suggested to pick a drive letter that is between M and Z.
+xxix) "assign letter = z:" + Enter
+N.B. ->You should see "DiskPart successfully assigned the drive letter or mount point".
+xxx) "exit" + Enter
+xxxi) "diskpart" + Enter
+xxxii) "list vol" + Enter
+N.B -> You should see the newly created partition.
+xxxiii) "exit" + Enter
+N.B. -> Must type the next command from the system hard drive.
+xxxiv) "bcdboot e:\windows /l en-us /s z: /f all" + Enter
+N.B -> In the above command replace e: with the drive letter
+	where windows is installed and z: with the letter you chose
+	in step (xxviii). You should see "Boot file successfully created."
+xxxv) "exit" + Enter
+xxxvi) Choose to turn off your pc.
+
+The pc should have uefi mode in system information.
+

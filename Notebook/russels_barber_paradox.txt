@@ -1,0 +1,13 @@
+Definition: The Russel's barber paradox is an example
+of self-referential statement that refers to iteself
+in a negative way. The paradox considers a barber in 
+a small town that shaves all men in the town, but
+only those men, who do not shave themselves. The
+prophetic question then arises, does the barber
+shave himself? If you say the barber shaves himself,
+then the barber does not shave himself since he only
+shaves those who do not shave themselves. On the other
+hand, if you say the barber does not shave himself,
+then he shaves himself since he shaves those who 
+do not shave themselves. This paradox was formulated
+by the English logician Bertrand Russel in 1901.

@@ -1,0 +1,14 @@
+Info -> A state is a particular arrangement
+	of bits.
+
+e.g. -> If I have four bits in my memory
+	0001, 0101, represents two different
+	states.
+N.B. -> One of the kernel's tasks is to 
+	split memory into many subdivisions,
+	and it must maintain certain state
+	information about those subdivisions
+	at all times. Each process gets its
+	own share of memory, and the kernel
+	must ensure that each proces keeps to
+	its share.
