@@ -1,0 +1,4 @@
+#! /bin/sh
+
+# man page to pdf
+man -k . | dmenu -l 30 -fn "monaco" | awk '{print $1}' | xargs -r man -Tpdf | zathura -

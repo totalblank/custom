@@ -1,0 +1,3 @@
+#! /usr/bin/bash
+
+mount /dev/sdb1 /run/media/srabon/Backup
