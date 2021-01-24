@@ -1,0 +1,25 @@
+#! /bin/bash
+
+# Written by Aheer
+
+printf "\n"
+printf "\tNotebook\n\n"
+file=$(ls ~/Documents/Notebook | dmenu -fn 'monaco-14' -i)
+
+if [[ $file != 'notebook' && $file != '' ]];
+then
+	echo -n "Read Or Write: "
+	read option
+
+	if [ $option == 'r' ]
+	then
+		cat ~/Documents/Notebook/$file | less
+	elif [ $option == 'w' ]
+	then
+		vim ~/Documents/Notebook/$file
+	else
+		echo "Invalid Option"
+	fi
+else
+	echo filename can\'t be \'notebook\' or empty
+fi
