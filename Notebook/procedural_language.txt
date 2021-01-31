@@ -1,0 +1,5 @@
+Definition: Conceptually, a procedural programming consists
+	of figuring out the actions a computer should take and then
+	using the programming language to implement those actions.
+
+E.G. -> C programming language.

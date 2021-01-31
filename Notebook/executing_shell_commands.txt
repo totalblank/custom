@@ -1,0 +1,8 @@
+Info -> While using 'source' command causes the commands
+	in the script to be run as if they were part of 
+	login session, the "just the name" method causes the
+	shell to do a series of things. First, it runs another
+	copy of the shell as a subprocess; this is called a
+	sub-shell. The sub-shell then takes commands from the
+	script, runs them, and terminates, handing control back
+	to the parent shell.

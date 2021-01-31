@@ -4,7 +4,7 @@
 
 printf "\n"
 printf "\tNotebook\n\n"
-file=$(ls ./Notebook | dmenu -fn 'monaco-14' -i)
+file=$(ls $HOME/custom/Notebook | dmenu -l 10 -fn 'monaco-14' -i)
 
 if [[ $file != 'notebook' && $file != '' ]];
 then
@@ -13,13 +13,13 @@ then
 
 	if [ $option == 'r' ]
 	then
-		cat ./Notebook/$file | less
+		less < $HOME/custom/Notebook/$file
 	elif [ $option == 'w' ]
 	then
-		vim ./Notebook/$file
+		vim $HOME/custom/Notebook/$file
 	else
-		echo "Invalid Option"
+		echo "Invalid Option!"
 	fi
 else
-	echo filename can\'t be \'notebook\' or empty
+	echo filename can\'t be \'notebook\' or empty.
 fi

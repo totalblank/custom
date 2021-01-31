@@ -1,0 +1,28 @@
+Event Designators
+
+Command                Description
+
+!                      Start a history substitution
+!!                     Refers to the last command
+!n                     Refers to command line n
+!-n                    Refers to the current command line minus n
+!string                Refers to the most recent command starting with string
+!?string?              Refers to the most recent command containing string; the ending "?" is optional
+^string1^string2       Repeat the last command, replacing string1 with string2
+
+Word Designators
+
+Command                Description
+
+0                      The zeroth (first) word in a line
+n                      The nth word in a line
+^                      The first argument (the second word)
+$                      The last argument in a line
+%                      The word matched by the most recent ?stringsearch
+x-y                    A range of words from x to y. -y is synonymous with 0-y
+*                      All words but the zeroth (first); synonymous with 1-$; if there is only one word on a line, an empty string is returned
+x*                     Synonymous with x-$
+x-                     The words from x to the second last word
+
+N.B. -> The word designator follows the event designators,
+separated by a colon.

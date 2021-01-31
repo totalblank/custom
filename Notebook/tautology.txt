@@ -1,0 +1,2 @@
+Definition: A tautology is a sentence (normally compound) that
+is true for all truth values of its individual components.

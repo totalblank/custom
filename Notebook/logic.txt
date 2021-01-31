@@ -6,3 +6,6 @@ Formal logical systems are important in
 Artificial Intelligence, where computers
 are programmed in the language of formal
 logic to carry out logical reasoning.
+
+Conjunction = AND
+Disjunction = OR
