@@ -1,0 +1,5 @@
+Info -> cout must translate a number in integer form
+	into character form before it can print it.
+	Furthermore, cout is smart enough to recognize that
+	carrots (an int variable) is an integer that requires
+	conversion.
