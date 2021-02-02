@@ -1,0 +1,19 @@
+Info -> The class description specifies all the
+	operations that can be performed on objects
+	of that class. To perform such an allowed
+	action on a particular object, you send a
+	message to the object. For example, if you
+	want the cout object to display a string, you
+	send it a message that says, in effect, "Object!
+	Display this!" C++ provides a couple of ways to
+	send messages. One way, using a class method, is
+	essentially a function call. The other way, which
+	is the one used with cin and cout, is to redefine
+	an operator. Thus the statement
+
+	cout << "I am not a crook."
+
+	uses the redefined << operator to send the
+	"display message" to cout. In this case, the message
+	comes with an argument, which is the string to be
+	displayed.

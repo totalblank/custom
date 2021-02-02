@@ -4,7 +4,7 @@
 
 printf "\n"
 printf "\tNotebook\n\n"
-file=$(ls $HOME/custom/Notebook | dmenu -l 10 -fn 'monaco-14' -i)
+file=$(ls $HOME/custom/Notebook | sort | dmenu -l 10 -fn 'monaco-14' -i)
 
 if [[ $file != 'notebook' && $file != '' ]];
 then
