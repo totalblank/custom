@@ -1,0 +1,5 @@
+Info -> An operator is a built-in language
+	element that operates on one or more
+	items to produce a value. For example,
+	the addition operator, represented by +,
+	adds two values.

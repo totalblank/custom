@@ -1,0 +1,7 @@
+To store an item of information
+in a computer, the program must keep
+track of three fundamental properties:
+
+* Where the information is stored
+* What value is kept there
+* What kind of information is stored
