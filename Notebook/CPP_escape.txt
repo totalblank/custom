@@ -1,0 +1,12 @@
+Name 		ASCII 			C++ 			Hex
+
+Newline 	NL(LF) 			\n 			0xA
+Hor tab 	HT 			\t 			0x9
+Ver tab 	VT 			\v 			0xB
+Backspace 	BS 			\b 			0x8
+Carr return	CR 			\r 			0xD
+Alert		BEL 			\a 			0x7
+Backslash 	\ 			\\ 			0x5C
+Ques mark 	? 			\? 			0x3F
+Sngl quote 	' 			\' 			0x27
+doub quote 	" 			\" 			0x22

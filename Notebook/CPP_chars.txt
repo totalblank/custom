@@ -1,0 +1,2 @@
+Info -> After Release 2.0, C++ stores single-character
+	constants as type char, not type int.

@@ -16,7 +16,7 @@ then
 		less < $HOME/custom/Notebook/$file
 	elif [ $option == 'w' ]
 	then
-		vim $HOME/custom/Notebook/$file
+		vim --clean $HOME/custom/Notebook/$file
 	else
 		echo "Invalid Option!"
 	fi

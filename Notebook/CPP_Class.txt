@@ -5,3 +5,8 @@ Info -> In C++, a class is a specification describing a new
 Info -> The class describes all the properties of a data type,
 	and an object is an entity created according to that
 	description.
+
+Info -> cout is an object of class ostream.
+	cin is an object of class istream.
+
+Info -> . is called the membership operator.

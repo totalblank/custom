@@ -1,0 +1,4 @@
+zathura 0.4.7-1
+zathura-djvu 0.2.9-1
+zathura-pdf-mupdf 0.3.6-4
+zathura-ps 0.2.6-2
