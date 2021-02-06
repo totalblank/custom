@@ -1,0 +1,5 @@
+Info -> The / operator divides its first operand by the
+	second. For example, 1000 / 5 evaluates to 200.
+	If both operands are integers, the result is the
+	integer portion of the quotient. For example, 17 / 3
+	is 5, with fractional part discarded.
