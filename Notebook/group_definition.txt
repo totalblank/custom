@@ -1,0 +1,10 @@
+* Set of elements G
+* Operation: *
+* Closed under operation
+* Closed under operation
+	x, y belongs to G -> x * y belongs to G
+* Inverses: x inverse exists for all x
+	x*x-1 = e
+* Identity: y*e = e*y = y
+* Associativity:
+	(a*b)*c = a*(b*c)

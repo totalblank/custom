@@ -1,0 +1,11 @@
+Info -> setf is a method from ostream class.
+	
+	cout.setf(std::ios_base::fixed, std::ios_base:floatfield);
+
+	This particular call forces output to stay
+	in fixed-point notation so that you can better
+	see the precision. It prevents the program from
+	switching to E notation for large values and
+	causes the program to display six digits to
+	the right of the decimal. The arguments
+	are constants provided by including iostream.

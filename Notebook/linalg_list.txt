@@ -1,0 +1,8 @@
+Info -> A list of length n is an ordered collection of n
+	elements (which might be numbers, other lists, or
+	more abstract entities) separated by commas and
+	surrounded by parentheses. A list of length n looks
+	like this:
+		(x1,....,xn)
+Info -> Many mathematicians call a list of length n an
+	n-tuple.
