@@ -1,0 +1,9 @@
+Info -> Both read an entire input line,
+	that is, up until a newline character.
+	However, getline() then discards the
+	newline character, whereas get() leaves
+	it in the input queue.
+
+N.B. -> Both are part of istream class so
+	can be accessed through cin.getline()
+	and cin.get().
