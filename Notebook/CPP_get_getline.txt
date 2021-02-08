@@ -2,7 +2,7 @@ Info -> Both read an entire input line,
 	that is, up until a newline character.
 	However, getline() then discards the
 	newline character, whereas get() leaves
-	it in the input queue.
+	it in the INPUT QUEUE.
 
 N.B. -> Both are part of istream class so
 	can be accessed through cin.getline()
