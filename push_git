@@ -1,0 +1,8 @@
+#! /usr/bin/sh
+
+# use this script only when added a note or the modification is
+# trivial
+
+git add .
+git commit -m "Added another note"
+git push

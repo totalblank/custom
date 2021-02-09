@@ -1,0 +1,37 @@
+Definition -> A vector space is a set V along with an addition
+	on V and a scalar multiplication on V such that following
+	properties hold:
+
+	commutativity
+	u + v = v + u for all u,v in V;
+
+	associativity
+	(u + v) + w = u + (v + w) and (ab)v = a(bv) for
+	all u,v,w in V and all a,b in F;
+
+	additive identity
+	there exists an element 0 in V such that
+	v + 0 = v for all v in V;
+
+	additive inverse
+	for every v in V, there exists w in V such that
+	v + w = 0;
+
+	multiplicative identity
+	1*v = v for all v in V;
+
+	distributive properties
+	a*(u + v) = a*u + a*v and (a + b)*v = a*v + b*v 
+	a,b in F and all u,v in V.
+
+Info -> Elements of a vector space are called vectors or points.
+
+Info -> The scalar multiplication in a vector space depends on F.
+	Thus when we need to be precise, we will say that V is a
+	vector space over F instead of saying simply that V is a
+	vector space. For example, R^n is a vector space over R,
+	and C^n is a vector space over C.
+
+Info -> A vector space over R is called a real vector space.
+
+Info -> A vector space over C is called a complex vector space.
