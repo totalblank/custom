@@ -1,0 +1,17 @@
+Info -> 
+	cin.getline(charr, 20);
+	
+	The dot notation indicates that the getline()
+	function is a class method for the istream class.
+	The first argument indicates the destination
+	array, and the second argument is the array size,
+	which getline() used to avoid overrunning the array.
+
+	getline(cin, str);
+
+	There is no dot notation, which indicates that this
+	getline() is not a class method. So it takes cin as
+	an argument that tells it where to find the input.
+	Also, there isn't an argument for the size of the
+	string because the string object automatically resizes
+	to fit the string.

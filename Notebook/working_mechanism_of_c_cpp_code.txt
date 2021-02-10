@@ -1,0 +1,13 @@
+Info -> There can be multiple source files (i.e. .c or .cpp)
+	and multiple header files (.h).
+
+	To complile the code we need to run the following
+	command
+
+		g++ -o <executable> <source1> <source2> ...
+		gcc -o <executable> <source1> <source2> ...
+
+Info -> Usually, we declare prototypes of functions
+	in .h files and define their working algorithm
+	in .cpp files.
+
