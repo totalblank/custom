@@ -35,3 +35,8 @@ Info -> The scalar multiplication in a vector space depends on F.
 Info -> A vector space over R is called a real vector space.
 
 Info -> A vector space over C is called a complex vector space.
+
+Info -> The elements of the vector space R^[0,1] are real valued
+	functions on [0,1], not lists. In general, a vector space
+	is an abstract entity whose elements might be lists,
+	functions, or weird objects.
