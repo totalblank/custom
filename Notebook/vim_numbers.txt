@@ -1,0 +1,58 @@
+Absolute Line Numbers
+
+Using the number option, Vim sets up absolute line
+numbers to show the line number for each line in the
+file I am working on.
+
+" turn absolute line numebers on
+:set number
+:set nn
+
+" turn absolute line numebers on
+:set nonumber
+:set nonu
+
+" toggle absolute line numbers
+:set number!
+:set nu!
+
+
+Relative Line Numbers
+
+With the relativenumber option, each line line in my
+file is numbered relative to the cursor's current
+position to show the distance to that line. The current
+line is marked 0, the ones above and below are marked 1,
+and so on.
+
+" turn relative line numbers on
+:set relativenumber
+:set rnu
+
+" turn relative line numbers off
+:set norelativenumber
+:set nornu
+
+" toggle relative line numbers
+:set relativenumber!
+:set rnu!
+
+
+"Hybrid" Line Numbers
+
+Since Vim 7.4, enabling number and relativenumber at the
+same time produces hybrid line number mode. All lines will
+show their relative number, except for current line, which
+will show its absolute line number.
+
+" turn hybrid line numbers on
+:set number relativenumber
+:set nu rnu
+
+" turn hybrid line numbers off
+:set nonumber norelativenumber
+:set nonu nornu
+
+" turn hybrid line numbers on
+:set number! relativenumber!
+:set nu! rnu!
