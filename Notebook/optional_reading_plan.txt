@@ -1,1 +1,2 @@
-1. Linear Algebra Done Right
+1. Topics in Algebra.		C++ Primer Plus
+2. Linear Algebra Done Right.	Introduction to Algorithms
