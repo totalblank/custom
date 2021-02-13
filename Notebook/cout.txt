@@ -3,3 +3,25 @@ Info -> cout must translate a number in integer form
 	Furthermore, cout is smart enough to recognize that
 	carrots (an int variable) is an integer that requires
 	conversion.
+
+Info -> If you give cout the address of a character, it prints
+	everything from that character to the first null
+	character that follows it. If the address given to cout
+	is the address of a character which is at the middle
+	of a string (i.e. the address pointing to 'b' in
+	"srabon"), then cout will print everything character
+	starting from and including that character to the end
+	of the string.
+
+Info -> cout << "Hello World!";
+
+	To be consistent with cout's hadling of string output,
+	this quoted string should also be an address. And it is,
+	for in C++ a quoted string, like an array name, serves
+	as the address of its first element. The code above
+	doesn't really send a whole string to cout; it just sends
+	the string address. This means strings in an array, quoted
+	string constants, and strings described by pointers are
+	all handled quivalently. Each is really passed along as
+	an address. That's certainly less work than passing each
+	and every character in a string.
