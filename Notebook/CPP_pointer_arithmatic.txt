@@ -1,0 +1,8 @@
+Info -> Adding one to an integer variable increases its
+	value by one, but adding one to a pointer variable
+	increases its value by the number of bytes of the
+	type to which it points. Adding one to a pointer
+	to double adds 8 to the numberic value on systems
+	with 8-byte double, whereas adding one to a
+	pointer-to-short adds two to the pointer value if
+	short is 2 bytes.

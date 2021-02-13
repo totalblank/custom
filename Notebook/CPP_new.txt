@@ -8,3 +8,21 @@ Info -> The presence of the brackets tells the program
 	that it should free the whole array; not just
 	the element pointed by the pointer. Absence of
 	the brackets tells otherwise.
+
+Info -> In short, you should observe these rules when
+	you use new and delete:
+
+	* Don't use delete to free memory that new didn't
+	  allocate.
+
+	* Don't use delete to free the same block of memory
+	  twice in succession.
+
+	* Use delete [] if you used new [] to allocate an
+	  array.
+
+	* Use delete (no brackets) if you used new to allocate
+	  a single entity.
+
+	* It's safe to apply delete to the null pointer
+	  (nothing happens).
