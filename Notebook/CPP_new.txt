@@ -1,0 +1,10 @@
+Info -> The new operator returns the address of
+	the first element of the block.
+
+	int *psome = new int [10]; // get a block of 10 ints
+	delete [] psome; // free a dynamic array
+
+Info -> The presence of the brackets tells the program
+	that it should free the whole array; not just
+	the element pointed by the pointer. Absence of
+	the brackets tells otherwise.
